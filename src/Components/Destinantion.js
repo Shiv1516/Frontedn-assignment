@@ -58,7 +58,7 @@ function Destination() {
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 1,
-    autoplay: true, 
+    autoplay: true,
     autoplaySpeed: 1000,
     responsive: [
       {
@@ -77,29 +77,31 @@ function Destination() {
   };
 
   return (
-    <div className="destination-section wrapper ptb48 tac">
-      <h2 className="section-heading ptb24 fs36 fc2 fw7">
-        Choose where you'd like to go!
-      </h2>
-      <Slider {...sliderSettings} className="destination-slider ptb32">
-        {destinations.map((destination) => (
-          <div key={destination.id} className="destination-cards">
-            <div className="destination-inner-card mlr24 cp tac">
-              <img
-                src={destination.image}
-                alt={destination.name}
-                className="destination-image mb16 br50 p16 brd1"
-              />
-              <h3 className="destination-card-heading fs18 fw6 fc3 mb8">
-                {destination.name}
-              </h3>
-              <p className="destination-card-subheading lh18 fs14 fw4">
-                {destination.description}
-              </p>
+    <div className="bg3 pb40">
+      <div className="destination-section wrapper ptb48 tac">
+        <h2 className="section-heading ptb24 fs36 fc2 fw7">
+          Choose where you'd like to go!
+        </h2>
+        <Slider {...sliderSettings} className="destination-slider ptb32">
+          {destinations.map((destination) => (
+            <div key={destination.id} className="destination-cards">
+              <div className="destination-inner-card mlr24 cp tac">
+                <img
+                  src={destination.image}
+                  alt={destination.name}
+                  className="destination-image mb16 br50 p16 brd1"
+                />
+                <h3 className="destination-card-heading fs18 fw6 fc3 mb8">
+                  {destination.name}
+                </h3>
+                <p className="destination-card-subheading lh18 fs14 fw4">
+                  {destination.description}
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 }

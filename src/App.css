@@ -424,8 +424,8 @@ table {
 .lh30 {
   line-height: 30px;
 }
-.lh34 {
-  line-height: 34px;
+.lh40 {
+  line-height: 40px;
 }
 .lh48 {
   line-height: 48px;
@@ -850,7 +850,10 @@ table {
   border: 1px solid #ebe5e5;
 }
 .brd3 {
-  border: 10px solid rgba(150, 145, 145, 0.4);
+  border-left: 5px solid #e1a600;
+}
+.brd4 {
+  border: 1px dashed #646262;
 }
 .brd-b1 {
   border-bottom: 0.5px solid rgba(231, 228, 228, 0.4);
@@ -1029,3 +1032,15 @@ table {
   height: 100px;
 }
 /* testimonial component css */
+
+/* offer component css */
+.offer-image {
+  margin-top: -70px;
+}
+/* offer component css */
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
+  color: #ff8008;
+  width: 30px;
+  height: 30px;
+}

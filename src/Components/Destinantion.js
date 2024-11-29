@@ -89,7 +89,7 @@ function Destination() {
                 <img
                   src={destination.image}
                   alt={destination.name}
-                  className="destination-image mb16 br50 p16 brd1"
+                  className="destination-image mb16 br50 p24 brd1 bg1"
                 />
                 <h3 className="destination-card-heading fs18 fw6 fc3 mb8">
                   {destination.name}

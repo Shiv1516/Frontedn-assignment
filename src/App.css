@@ -395,8 +395,8 @@ table {
 .fs24 {
   font-size: 24px;
 }
-.fs32 {
-  font-size: 32px;
+.fs28 {
+  font-size: 28px;
 }
 .fs36 {
   font-size: 36px;
@@ -989,7 +989,6 @@ table {
   background-position: center;
   animation: moveBackground 20s infinite alternate;
 }
-
 @keyframes moveBackground {
   0% {
     background-position: center;
@@ -1001,7 +1000,6 @@ table {
     background-position: center bottom;
   }
 }
-
 .hero-section::after {
   top: 0;
   bottom: 0;
@@ -1011,6 +1009,12 @@ table {
     rgba(2, 0, 36, 0.33),
     rgba(1, 18, 21, 0.86)
   );
+}
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
+  color: #ff8008;
+  width: 30px;
+  height: 30px;
 }
 /* hero section css */
 
@@ -1038,9 +1042,13 @@ table {
   margin-top: -70px;
 }
 /* offer component css */
-.slick-slider .slick-prev:before,
-.slick-slider .slick-next:before {
-  color: #ff8008;
-  width: 30px;
-  height: 30px;
+
+/* footer component css */
+.social-icon:hover {
+  background-color: #ff8008;
+  color: #000;
 }
+.footer-logo {
+  height: 55px;
+}
+/* footer component css */

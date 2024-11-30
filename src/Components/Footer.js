@@ -51,15 +51,15 @@ function Footer() {
               <ul className="footer-box-list ml4 fs16 mt8">
                 <li className="footer-box-item df mb16">
                   <FaAngleRight className="mr8 fs16" />
-                  Home
+                  Locations
                 </li>
                 <li className="footer-box-item df mb16">
                   <FaAngleRight className="mr8 fs16" />
-                  Home
+                  Experiences
                 </li>
                 <li className="footer-box-item df mb16">
                   <FaAngleRight className="mr8 fs16" />
-                  Home
+                  Offers
                 </li>
               </ul>
             </div>

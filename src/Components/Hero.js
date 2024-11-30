@@ -11,7 +11,7 @@ function Hero() {
           We craft visuals that captivate attention, inspire action, and leave a
           lasting impression, elevating your brand’s identity.
         </p>
-        <button className="h48 plr24 br8 bg2 fw6">Book Now</button>
+        <button className="h48 plr24 br8 bg2 fw6 cp">Book Now</button>
       </div>
     </div>
   );

@@ -1126,3 +1126,43 @@ table {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 16px;
+  }
+
+  .nav-container.open .nav-links {
+    display: flex;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .cta-btn {
+    display: block;
+    margin: 16px auto;
+  }
+}

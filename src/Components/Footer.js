@@ -46,15 +46,15 @@ function Footer() {
                 Important Links
               </h2>
               <ul className="footer-box-list ml4 fs16 mt8">
-                <li className="footer-box-item cp transit2 df mb24">
+                <li className="footer-box-item cp transit2 df mb18">
                   <FaAngleRight className="mr8 fs16" />
                   Locations
                 </li>
-                <li className="footer-box-item cp transit2 df mb24">
+                <li className="footer-box-item cp transit2 df mb18">
                   <FaAngleRight className="mr8 fs16" />
                   Experiences
                 </li>
-                <li className="footer-box-item cp transit2 df mb24">
+                <li className="footer-box-item cp transit2 df mb18">
                   <FaAngleRight className="mr8 fs16" />
                   Offers
                 </li>
@@ -66,8 +66,8 @@ function Footer() {
             </div>
           </div>
           <div className="footer-box flx25 df">
-            <div className="footer-inner-box mlr24 df fdc">
-              <h2 className="footer-box-heading fs20 mb24 fw6 ofh">Location</h2>
+            <div className="footer-inner-box mlr24 df fdc ofh">
+              <h2 className="footer-box-heading fs20 mb24 fw6">Location</h2>
               <div className="map-box df">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28071.391341140865!2d77.0574544!3d28.4215525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce51a5f85fd55%3A0x553ee1a290ac09f9!2sSector%2056%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1732908760549!5m2!1sen!2sin"

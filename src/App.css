@@ -567,6 +567,10 @@ table {
 .mtb16 {
   margin-top: 16px;
 }
+.mt18,
+.mtb18 {
+  margin-top: 18px;
+}
 .mt24,
 .mtb24 {
   margin-top: 24px;
@@ -667,6 +671,10 @@ table {
 .mb16,
 .mtb16 {
   margin-bottom: 16px;
+}
+.mb18,
+.mtb18 {
+  margin-bottom: 18px;
 }
 .mb24,
 .mtb24 {
@@ -1093,7 +1101,6 @@ table {
 }
 .footer-box-item:hover {
   transform: translateX(10px);
-  
 }
 /* footer component css */
 

@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { CiDiscount1 } from "react-icons/ci";
 const offersData = [
   {
     id: 1,
@@ -12,7 +12,6 @@ const offersData = [
     maxDiscount: "Rs. 3,000",
     expiry: "December 20, 2024",
     buttonCode: "VSW52V23V",
-    image: "images/offer-icon.png",
   },
   {
     id: 2,
@@ -22,7 +21,6 @@ const offersData = [
     maxDiscount: "Rs. 5,000",
     expiry: "December 31, 2024",
     buttonCode: "XYZ123456",
-    image: "images/offer-icon.png",
   },
   {
     id: 3,
@@ -32,7 +30,6 @@ const offersData = [
     maxDiscount: "Rs. 5,000",
     expiry: "December 31, 2024",
     buttonCode: "XYZ123456",
-    image: "images/offer-icon.png",
   },
   {
     id: 4,
@@ -42,7 +39,6 @@ const offersData = [
     maxDiscount: "Rs. 5,000",
     expiry: "December 31, 2024",
     buttonCode: "XYZ123456",
-    image: "images/offer-icon.png",
   },
   {
     id: 5,
@@ -52,7 +48,6 @@ const offersData = [
     maxDiscount: "Rs. 5,000",
     expiry: "December 31, 2024",
     buttonCode: "XYZ123456",
-    image: "images/offer-icon.png",
   },
 ];
 
@@ -88,11 +83,7 @@ function Offers() {
         {offersData.map((offer) => (
           <div key={offer.id} className="offers-card ptb40">
             <div className="offers-inner-card mlr16 brd2 br12 pr pt40 pb32 plr24 mtb32">
-              <img
-                src={offer.image}
-                alt="offer-icon"
-                className="offer-image p16 br12 bg2 h40 pa r0 mr32"
-              />
+              <CiDiscount1 className="offer-image p16 br12 bg2 pa r0 mr32 fs28 fc1 fw7" />
               <h3 className="offers-card-head fs20 fw5 mb24">
                 <span className="brd3 mr12"></span> {offer.title}
               </h3>

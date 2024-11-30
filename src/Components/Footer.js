@@ -46,19 +46,19 @@ function Footer() {
                 Important Links
               </h2>
               <ul className="footer-box-list ml4 fs16 mt8">
-                <li className="footer-box-item df mb16">
+                <li className="footer-box-item cp transit2 df mb24">
                   <FaAngleRight className="mr8 fs16" />
                   Locations
                 </li>
-                <li className="footer-box-item df mb16">
+                <li className="footer-box-item cp transit2 df mb24">
                   <FaAngleRight className="mr8 fs16" />
                   Experiences
                 </li>
-                <li className="footer-box-item df mb16">
+                <li className="footer-box-item cp transit2 df mb24">
                   <FaAngleRight className="mr8 fs16" />
                   Offers
                 </li>
-                <li className="footer-box-item df mb16">
+                <li className="footer-box-item cp transit2 df mb24">
                   <FaAngleRight className="mr8 fs16" />
                   Blogs
                 </li>
@@ -85,17 +85,17 @@ function Footer() {
             <div className="footer-inner-box mlr24">
               <h2 className="footer-box-heading fs20 mb24 fw6">Contact</h2>
               <ul className="footer-box-list ml4 fs16 mt8">
-                <li className="footer-box-item df mb16 lh24">
+                <li className="footer-box-item df transit2 cp mb16 lh24">
                   <IoLocationOutline className="mr12 fs28" />
                   D45, D-block Sector-56, Noida, Uttar Pradesh, 201301
                 </li>
-                <li className="footer-box-item df mb16">
+                <li className="footer-box-item df transit2 mb16">
                   <FaPhoneAlt className="mr12" />
                   <Link to="tel:9832326372" className="contact-link">
                     9832326372
                   </Link>
                 </li>
-                <li className="footer-box-item df mb24">
+                <li className="footer-box-item df transit2 mb24">
                   <GoMail className="mr12" />
                   <Link
                     to="mailto:dummymail@gmail.com"

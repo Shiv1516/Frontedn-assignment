@@ -8,42 +8,42 @@ const Testimonials = () => {
       name: "Hardik Savani",
       job: "Company Owner",
       description:
-        "We're thankful for Ameesh Sir's invaluable guidance and engaging teaching style, which helped our children grasp complex concepts effectively. Their grades improved remarkably, and they gained a deep understanding of commerce principles, shaping their future. Highly recommend Ameesh Sir for exceptional education in commerce.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!",
       image: "images/testimonials/client-01.webp",
     },
     {
       name: "Sabhajeet Singh",
       job: "Government Employee",
       description:
-        "Ameesh Sir's invaluable guidance and engaging teaching style have been instrumental in helping our children grasp complex concepts effectively. Thanks to his classes, their grades improved remarkably, and they gained a deep understanding of commerce principles, shaping their future. Highly recommend Ameesh Sir for exceptional education in commerce.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!",
       image: "images/testimonials/client-02.webp",
     },
     {
       name: "Sundar Pichai",
       job: "Private Job",
       description:
-        "Our gratitude to Ameesh Sir for his invaluable guidance and engaging teaching style, which helped our children grasp complex concepts effectively. Thanks to his classes, their grades improved remarkably, and they gained a deep understanding of commerce principles, shaping their future. Highly recommend Ameesh Sir for exceptional education in commerce.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!",
       image: "images/testimonials/client-01.webp",
     },
     {
       name: "Anubhaw Srivastav",
       job: "Teacher",
       description:
-        "We're grateful to Ameesh Sir for his invaluable guidance and engaging teaching style, which helped our children grasp complex concepts effectively. Their grades improved remarkably, and they gained a deep understanding of commerce principles, shaping their future. Highly recommend Ameesh Sir for exceptional education in commerce.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!",
       image: "images/testimonials/client-02.webp",
     },
     {
       name: "Anurag Saxena",
       job: "Shop Keeper",
       description:
-        "Our sincere appreciation to Ameesh Sir for his invaluable guidance and engaging teaching style that helped our children grasp complex concepts effectively. Their remarkable improvement in grades and deep understanding of commerce principles are testaments to his exceptional teaching. Highly recommend Ameesh Sir for top-notch commerce education.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!",
       image: "images/testimonials/client-01.webp",
     },
     {
       name: "Satyendra Tyagi",
       job: "Builder",
       description:
-        "Ameesh Sir's invaluable guidance and engaging teaching style have significantly benefited our children in grasping complex concepts effectively. Their remarkable improvement in grades and deep understanding of commerce principles reflect his exceptional teaching. We highly recommend Ameesh Sir for outstanding commerce education.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea a? Nulla eligendi eius veritatis voluptate beatae esse nesciunt atque!",
       image: "images/testimonials/client-02.webp",
     },
   ];

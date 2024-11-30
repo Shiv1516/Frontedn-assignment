@@ -1140,6 +1140,9 @@ table {
     max-width: 50%;
     margin-bottom: 24px;
   }
+  .header-section {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 541px) {

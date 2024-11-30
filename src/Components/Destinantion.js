@@ -79,8 +79,10 @@ function Destination() {
   return (
     <div className="bg3 pb40">
       <div className="destination-section wrapper ptb48 tac">
-        <h2 className="section-heading ptb24 fs36 fc2 fw7">
+        <h2 className="section-heading ptb24 fs36 fc2 fw7 df aic jcc">
+          <span className="heading-deco mr8"></span>
           Choose where you'd like to go!
+          <span className="heading-deco ml8"></span>
         </h2>
         <Slider {...sliderSettings} className="destination-slider ptb32">
           {destinations.map((destination) => (

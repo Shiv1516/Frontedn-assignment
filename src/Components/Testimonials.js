@@ -68,37 +68,42 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="testimonial-section wrapper ptb48">
-      <h2 className="section-heading ptb16 fs36 fc2 fw7 tac">Testimonials</h2>
-      <Slider {...settings} className="testimonial-cards df ptb32">
-        {PartesimonialData.map((paretestimonial, index) => (
-          <div className="testimonial-card ptb40" key={"index"}>
-            <div className="container bs1 mlr12 p24 br8 bs1">
-              <div className="profile v-center jcsb mb24">
-                <div className="quot-icon">
-                  <RiDoubleQuotesL className="fs45 fc2 mb8" />
-                  <h3 className="testimonial-name fs18 fw6 mb8">
-                    {paretestimonial.name}
-                  </h3>
-                  <p className="testimonial-job fc4">{paretestimonial.job}</p>
+    <div className="bg3">
+      <div className="testimonial-section wrapper ptb48">
+        <h2 className="section-heading ptb16 fs36 fc2 fw7 df aic jcc">
+          <span className="heading-deco mr8"></span>Testimonials
+          <span className="heading-deco ml8"></span>
+        </h2>
+        <Slider {...settings} className="testimonial-cards df ptb32">
+          {PartesimonialData.map((paretestimonial, index) => (
+            <div className="testimonial-card ptb40" key={"index"}>
+              <div className="container bs1 mlr12 p24 br8 bs1">
+                <div className="profile v-center jcsb mb24">
+                  <div className="quot-icon">
+                    <RiDoubleQuotesL className="fs45 fc2 mb8" />
+                    <h3 className="testimonial-name fs18 fw6 mb8">
+                      {paretestimonial.name}
+                    </h3>
+                    <p className="testimonial-job fc4">{paretestimonial.job}</p>
+                  </div>
+                  <div className="testimonial-img ofh mb16">
+                    <img
+                      className="br50"
+                      src={paretestimonial.image}
+                      alt="testimonial-img"
+                    />
+                  </div>
                 </div>
-                <div className="testimonial-img ofh mb16">
-                  <img
-                    className="br50"
-                    src={paretestimonial.image}
-                    alt="testimonial-img"
-                  />
+                <div className="testimonial-desc">
+                  <p className="desc fc4 lh22 mb16">
+                    {paretestimonial.description}
+                  </p>
                 </div>
-              </div>
-              <div className="testimonial-desc">
-                <p className="desc fc4 lh22 mb16">
-                  {paretestimonial.description}
-                </p>
               </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };

@@ -318,7 +318,11 @@ function Offers() {
 
   return (
     <div className="offers-section wrapper ptb48">
-      <h2 className="section-heading ptb16 fs36 fc2 fw7 tac">Offers for You</h2>
+      <h2 className="section-heading ptb16 fs36 fc2 fw7 df aic jcc">
+        {" "}
+        <span className="heading-deco mr8"></span>Offers for You
+        <span className="heading-deco ml8"></span>
+      </h2>
       <Slider {...sliderSettings}>
         {offersData.map((offer) => (
           <div key={offer.id} className="offers-card ptb40">

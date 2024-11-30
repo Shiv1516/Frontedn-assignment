@@ -64,18 +64,20 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="footer-box flx25">
-            <div className="footer-inner-box mlr24">
+          <div className="footer-box flx25 df">
+            <div className="footer-inner-box mlr24 df fdc">
               <h2 className="footer-box-heading fs20 mb24 fw6">Location</h2>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28071.391341140865!2d77.0574544!3d28.4215525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce51a5f85fd55%3A0x553ee1a290ac09f9!2sSector%2056%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1732908760549!5m2!1sen!2sin"
-                width="auto"
-                height="auto"
-                className="footer-map mt8 brd1"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              />
+              <div className="map-box df">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28071.391341140865!2d77.0574544!3d28.4215525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce51a5f85fd55%3A0x553ee1a290ac09f9!2sSector%2056%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1732908760549!5m2!1sen!2sin"
+                  width="auto"
+                  height="auto"
+                  className="footer-map mt8 brd1"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                />
+              </div>
             </div>
           </div>
           <div className="footer-box flx25">

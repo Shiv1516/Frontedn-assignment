@@ -61,12 +61,16 @@ function Footer() {
                   <FaAngleRight className="mr8 fs16" />
                   Offers
                 </li>
+                <li className="footer-box-item df mb16">
+                  <FaAngleRight className="mr8 fs16" />
+                  Blogs
+                </li>
               </ul>
             </div>
           </div>
           <div className="footer-box flx25 df">
             <div className="footer-inner-box mlr24 df fdc">
-              <h2 className="footer-box-heading fs20 mb24 fw6">Location</h2>
+              <h2 className="footer-box-heading fs20 mb24 fw6 ofh">Location</h2>
               <div className="map-box df">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28071.391341140865!2d77.0574544!3d28.4215525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce51a5f85fd55%3A0x553ee1a290ac09f9!2sSector%2056%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1732908760549!5m2!1sen!2sin"
@@ -84,9 +88,9 @@ function Footer() {
             <div className="footer-inner-box mlr24">
               <h2 className="footer-box-heading fs20 mb24 fw6">Contact</h2>
               <ul className="footer-box-list ml4 fs16 mt8">
-                <li className="footer-box-item df lh24 mb16">
-                  <IoLocationOutline className="mr12 fs28" />
-                  D-81 D-block Sector-56, Noida, Uttar Pradesh
+                <li className="footer-box-item df mb16">
+                  <IoLocationOutline className="mr8 fs24" />
+                  D-block Sector-56, Noida
                 </li>
                 <li className="footer-box-item df mb16">
                   <FaPhoneAlt className="mr12" />

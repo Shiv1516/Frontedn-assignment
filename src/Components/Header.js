@@ -106,6 +106,9 @@ const Header = () => {
                   </ul>
                 )}
               </li>
+              <li className="nav-item cp ptb16 fc-h3 transit2 mlr12 pr plr16 bg-h1 br8">
+                Blogs
+              </li>
             </ul>
             <button className="cta-btn bg2 fc1 plr16 h48 cp br8 fw6">
               Sign In

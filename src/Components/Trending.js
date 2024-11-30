@@ -269,7 +269,7 @@ function Trending() {
 
   return (
     <div className="trending-section wrapper ptb48">
-      <h2 className="section-heading ptb24 fs36 fc2 fw7 df aic jcc">
+      <h2 className="section-heading ptb24 fs36 fc2 fw7 tac df aic jcc">
         <span className="heading-deco mr8"></span>
         Trending This Season<span className="heading-deco ml8"></span>
       </h2>

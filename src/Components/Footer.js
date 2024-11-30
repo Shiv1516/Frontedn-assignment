@@ -25,8 +25,8 @@ function Footer() {
           </button>
         </div>
       </div>
-      <div className="bg2 ptb48">
-        <div className="footer df fww wrapper ptb40">
+      <div className="bg2 ptb40">
+        <div className="footer df fww wrapper ptb48">
           <div className="footer-box flx25">
             <div className="footer-inner-box mlr24">
               <img
@@ -36,8 +36,7 @@ function Footer() {
               />
               <p className="footer-logo-des lh24 fw5 taj">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                voluptates quisquam rerum voluptatibus ducimus et numquam,
-                dolore nam enim nemo!
+                voluptates quisquam rerum voluptatibus ducimus!
               </p>
             </div>
           </div>
@@ -86,9 +85,9 @@ function Footer() {
             <div className="footer-inner-box mlr24">
               <h2 className="footer-box-heading fs20 mb24 fw6">Contact</h2>
               <ul className="footer-box-list ml4 fs16 mt8">
-                <li className="footer-box-item df mb16">
-                  <IoLocationOutline className="mr8 fs24" />
-                  D-block Sector-56, Noida
+                <li className="footer-box-item df mb16 lh24">
+                  <IoLocationOutline className="mr12 fs28" />
+                  D45, D-block Sector-56, Noida, Uttar Pradesh, 201301
                 </li>
                 <li className="footer-box-item df mb16">
                   <FaPhoneAlt className="mr12" />
@@ -105,47 +104,48 @@ function Footer() {
                     dummymail@gmail.com
                   </Link>
                 </li>
-                <li className="footer-box-item df mb16 ml12 fw6 fs18">
-                  Social Media
-                </li>
-                <li className="footer-box-item df mb16">
-                  <Link
-                    to="https://wa.me/your-whatsapp-number"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-icon-link"
-                  >
-                    <FaWhatsapp className="social-icon cp transit2 p12 br50 brd1 bg1 mlr8" />
-                  </Link>
-                  <Link
-                    to="https://twitter.com/your-twitter-handle"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-icon-link"
-                  >
-                    <RiTwitterXLine className="social-icon cp transit2 p12 br50 brd1 bg1 mlr8" />
-                  </Link>
-                  <Link
-                    to="https://www.instagram.com/your-instagram-handle/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-icon-link"
-                  >
-                    <FaInstagram className="social-icon cp transit2 p12 br50 brd1 bg1 mlr8" />
-                  </Link>
-                  <Link
-                    to="https://www.youtube.com/your-youtube-channel"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-icon-link"
-                  >
-                    <CiYoutube className="social-icon cp transit2 p12 br50 brd1 bg1 mlr8" />
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
         </div>
+        <div className="footer-social df jcc wrapper ptb12 brd-b1">
+          <Link
+            to="https://wa.me/your-whatsapp-number"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon-link"
+          >
+            <FaWhatsapp className="social-icon cp transit2 p12 br50 brd1 bg1 mlr8" />
+          </Link>
+          <Link
+            to="https://twitter.com/your-twitter-handle"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon-link"
+          >
+            <RiTwitterXLine className="social-icon cp transit2 p12 br50 brd1 bg1 mlr8" />
+          </Link>
+          <Link
+            to="https://www.instagram.com/your-instagram-handle/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon-link"
+          >
+            <FaInstagram className="social-icon cp transit2 p12 br50 brd1 bg1 mlr8" />
+          </Link>
+          <Link
+            to="https://www.youtube.com/your-youtube-channel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon-link"
+          >
+            <CiYoutube className="social-icon cp transit2 p12 br50 brd1 bg1 mlr8" />
+          </Link>
+        </div>
+        <p className="lh18 tac pt12 fs14 ">
+          Copyright © 2023, All Right Reserved, Designed & Developed by Ebslon
+          Infotech
+        </p>
       </div>
     </>
   );

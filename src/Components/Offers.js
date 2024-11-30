@@ -343,7 +343,7 @@ function Offers() {
                 <button className="coupan-code h48 plr24 br8 brd4 cp mlr16">
                   {offer.buttonCode}
                 </button>
-                <button className="coupan-code h48 plr24 br8 brd4 cp bg2 fc1 mlr16">
+                <button className="coupan-code h48 plr24 br8 brd4 cp bg2 fc1 mlr16 wsnw">
                   Copy Code
                 </button>
               </div>

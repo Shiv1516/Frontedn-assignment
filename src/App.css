@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 /* Reset Box Model */
 html,
 body,
@@ -81,8 +83,8 @@ figure {
 body {
   line-height: 1;
   font-size: 100%;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
   color: #404042;
 }
 
@@ -975,6 +977,11 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
+/* header component css */
+.logo {
+  height: 44px;
+}
+/* header component css */
 
 /* hero section css */
 .hero-section {
@@ -1012,9 +1019,8 @@ table {
 }
 .slick-slider .slick-prev:before,
 .slick-slider .slick-next:before {
-  color: #ff8008;
-  width: 30px;
-  height: 30px;
+  color: #e1a600;
+  font-size: 25px;
 }
 /* hero section css */
 
@@ -1045,10 +1051,48 @@ table {
 
 /* footer component css */
 .social-icon:hover {
-  background-color: #ff8008;
+  background-color: #e1a600;
   color: #000;
 }
 .footer-logo {
   height: 55px;
 }
 /* footer component css */
+
+@media only screen and (max-width: 541px) {
+  .hero-heading {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  .hero-subheading {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  .slick-slider .slick-prev {
+    left: -8px;
+    z-index: 3;
+  }
+  .collection-section {
+    overflow: visible;
+  }
+  .fs36 {
+    font-size: 22px;
+  }
+  .slick-slider .slick-next {
+    right: -8px;
+    z-index: 3;
+  }
+  .w50 {
+    width: 90%;
+  }
+  .footer-box,
+  .top-foter-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: start;
+  }
+}

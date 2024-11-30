@@ -1113,5 +1113,6 @@ table {
   .coupan-code {
     font-size: 15px;
     padding: 0 12px 0 12px;
+    margin-right: 12px;
   }
 }

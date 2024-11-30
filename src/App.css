@@ -1001,7 +1001,6 @@ table {
   display: flex;
   align-items: center;
 }
-
 .hamburger-btn {
   display: none;
   font-size: 24px;
@@ -1009,11 +1008,18 @@ table {
   border: none;
   cursor: pointer;
 }
+.bottom-header.sticky {
+  position: fixed;
+  background-color: #eaecef;
+  top: 0px;
+  margin-top: 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 /* header component css */
 
 /* hero section css */
 .hero-section {
-  height: 95vh;
+  height: 100vh;
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
@@ -1087,7 +1093,17 @@ table {
 }
 /* footer component css */
 
+/* Responsive  */
 @media (max-width: 768px) {
+  .bottom-header {
+    position: relative;
+  }
+  .botto-head {
+    margin: 0;
+    padding: 12px;
+    background-color: #ffffff;
+    width: 100%;
+  }
   .nav-top-list {
     display: none;
     position: absolute;
@@ -1200,3 +1216,4 @@ table {
     margin-right: 12px;
   }
 }
+/* Responsive  */

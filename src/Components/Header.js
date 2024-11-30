@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { IoMdCall } from "react-icons/io";
 import { MdMail } from "react-icons/md";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState({
@@ -18,6 +18,20 @@ const Header = () => {
     }));
   };
 
+  const [isSticky, setIsSticky] = useState(false);
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <div className="header-section bg3">
@@ -32,8 +46,8 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="bottom-header">
-        <nav className="wrapper df jcsb aic ptb12">
+      <div className={`bottom-header pa w100 zi99 ${isSticky ? "sticky" : ""}`}>
+        <nav className="botto-head wrapper df jcsb aic ptb12 bg3 mt24 br8 plr12">
           <div className="logo-box">
             <img src="images/logo.png" alt="logo" className="logo" />
           </div>
